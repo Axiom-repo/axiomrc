@@ -1,5 +1,9 @@
 package:
 
+[qemu]
+https://github.com/qemu/qemu
+system{mkdir build | cd build | ../configure | make}
+
 [bsdgames]
 https://github.com/pianojockl/bsdgames
 system{sudo make}
