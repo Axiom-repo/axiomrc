@@ -1,5 +1,11 @@
 package:
 
+[xfce4-terminal]
+https://github.com/xfce-mirror/xfce4-terminal
+system{meson setup build}
+system{meson compile -C build}
+system{meson install -C build}
+
 [doas]
 https://github.com/slicer69/doas
 system{makepkg -si}
