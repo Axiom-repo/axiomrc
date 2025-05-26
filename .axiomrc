@@ -1,5 +1,8 @@
 package:
 
+[linux]
+https://kernel.com
+
 [linux-logo]
 https://github.com/deater/linux_logo
 system{sudo make}
