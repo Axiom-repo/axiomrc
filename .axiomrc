@@ -3,7 +3,8 @@ package:
 [doas]
 https://github.com/slicer69/doas
 system{makepkg -si}
-system{make}
+system{sudo make}
+system{sudo make install}
 
 [linux-logo]
 https://github.com/deater/linux_logo
