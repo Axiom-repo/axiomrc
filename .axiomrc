@@ -1,5 +1,9 @@
 package:
 
+[bsdgames]
+https://github.com/pianojockl/bsdgames
+system{sudo make}
+
 [xfce4-terminal]
 https://github.com/xfce-mirror/xfce4-terminal
 system{meson setup build}
