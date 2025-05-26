@@ -1,0 +1,74 @@
+package:
+
+[linux-logo]
+https://github.com/deater/linux_logo
+system{sudo make}
+system{sudo make install}
+
+[fastfetch]
+https://github.com/fastfetch-cli/fastfetch
+system{sudo make}
+system{sudo make install}
+
+[pfetch]
+https://github.com/dylanaraps/pfetch
+system{sudo make}
+system{sudo make install}
+system{pfetch}
+
+[vim]
+https://github.com/vim/vim
+system{sudo make}
+system{sudo make install}
+
+[qs-term]
+https://github.com/CowerDawn/QS-term
+
+[uwu-say]
+https://github.com/CowerDawn/UwU-say
+
+[w1dshell]
+https://github.com/CowerDawn/w1dShell
+
+[ribopkg]
+https://github.com/CowerDawn/ribopkg
+
+[alcalc]
+https://github.com/CowerDawn/AlCalc
+
+[xamper]
+https://github.com/CowerDawn/Xamper
+
+[wm-it]
+https://github.com/CowerDawn/WM-IT
+
+[few]
+https://github.com/fikuspi/few
+
+[gsf-term]
+https://github.com/fikuspi/gsf-term
+
+[fkgit]
+https://github.com/fikuspi/fkgit
+
+[fk-files]
+https://github.com/fikuspi/fk-files
+
+[bluetux]
+https://github.com/S0siskaKiller/bluetux
+
+[obolochkansa]
+https://github.com/S0siskaKiller/obolochkaNSA
+
+[bluetuxc]
+https://github.com/S0siskaKiller/bluetuxc
+
+[emacs]
+https://github.com/emacs-mirror/emacs
+
+[keyscrot]
+https://github.com/CowerDawn/keyscrot
+system{sudo make all}
+
+[fastxclip]
+https://github.com/Axiom-repo/fastxclipforaxeom/
