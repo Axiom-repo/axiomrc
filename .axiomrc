@@ -2,7 +2,11 @@ package:
 
 [qemu]
 https://github.com/qemu/qemu
-system{mkdir build | cd build | ../configure | make}
+system{wget https://download.qemu.org/qemu-10.0.2.tar.xz}
+system{tar xvJf qemu-10.0.2.tar.xz}
+system{cd qemu-10.0.2}
+system{./configure}
+system{make}
 
 [bsdgames]
 https://github.com/pianojockl/bsdgames
@@ -35,7 +39,6 @@ https://github.com/dylanaraps/pfetch
 system{sudo make}
 system{sudo make install}
 system{pfetch}
-
 
 [gvim]
 https://github.com/vim/vim
