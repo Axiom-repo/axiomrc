@@ -38,8 +38,8 @@ system{pfetch}
 
 [vim]
 https://github.com/vim/vim
-system{sudo make}
-system{sudo make install}
+system{cd src/ | make}
+system{cd .. | sudo make install}
 
 [qs-term]
 https://github.com/CowerDawn/QS-term
